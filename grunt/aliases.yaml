@@ -1,0 +1,6 @@
+default:
+  - 'sass'
+
+css:
+  - 'sass'
+  - 'postcss'
