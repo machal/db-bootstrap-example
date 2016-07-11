@@ -1,5 +1,7 @@
 default:
-  - 'sass'
+  - 'css'
+  - 'browserSync'
+  - 'watch'
 
 css:
   - 'sass'

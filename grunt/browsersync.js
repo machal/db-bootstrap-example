@@ -1,4 +1,4 @@
-// browsersync: sledovani zmen v souborech
+// browserSync: sledovani zmen v souborech
 // ---------------------------------------
 
 module.exports = {
@@ -9,8 +9,8 @@ module.exports = {
 	    options: {
 	        watchTask: true,
 	        server: {
-            baseDir: "./"
-          }
+            	baseDir: "./"
+          	}
 	    }
 	}
 } 
