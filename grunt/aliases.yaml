@@ -6,3 +6,7 @@ default:
 css:
   - 'sass'
   - 'postcss'
+
+js:
+  - 'copy'
+  - 'uglify'  
