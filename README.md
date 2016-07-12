@@ -11,7 +11,7 @@ npm install
 
 ## Run
 
-# Run default Grunt task:
+Run default Grunt task:
 
 ```bash
 grunt
