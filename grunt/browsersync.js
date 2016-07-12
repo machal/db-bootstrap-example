@@ -4,7 +4,7 @@
 module.exports = {
 	dev: {
 	    bsFiles: {
-	        src : 'css/*.css'
+	        src : 'dist/css/*.css'
 	    },
 	    options: {
 	        watchTask: true,
