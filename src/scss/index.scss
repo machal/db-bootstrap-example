@@ -1,9 +1,13 @@
-// Test SCSS
+// Menim barvy Bootstrapu
 
-body {
-	background: white;
-}
+$brand-primary: red;
 
-.flex-test {
-	display: flex;
-}
+// Import Bootstrap
+
+@import "_bootstrap.scss";
+
+// Nase komponenty:
+
+@import "_el.scss";
+
+@import "_layout.scss";

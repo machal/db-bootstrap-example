@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.layout-top {
+    padding: 1em;
+    background: yellow;
+}
+
+.layout-side {
+    padding: 1em;
+    background: gray;
+}    
+
+// Layout:
+
+@media only screen and (min-width: 500px) {
+
+    .layout {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+    }
+    
+    .layout-body {
+        display: flex;
+        flex: 1;
+    }    
+    
+    .layout-content {
+        flex: 1;
+    }
+    
+    .layout-side {
+        min-width: 200px;
+        max-width: 300px;
+    }    
+
+    
+}

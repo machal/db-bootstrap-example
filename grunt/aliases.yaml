@@ -1,6 +1,5 @@
 default:
   - 'css'
-  - 'browserSync'
   - 'watch'
 
 css:
